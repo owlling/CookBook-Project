@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="cookbook" ></dbname>
+    <version value="1" ></version>
+
+    <list>
+        <mapping class="com.owlling.cookbook.model.entity.tb_cook.TB_CustomCategory"/>
+        <mapping class="com.owlling.cookbook.model.entity.tb_cook.TB_CookDetail"/>
+    </list>
+
+</litepal>

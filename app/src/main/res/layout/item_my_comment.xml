@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCommentContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp"
+            android:maxLines="1"
+            android:textColor="@color/black_alpha_30"
+            android:textSize="16sp"
+            tools:text="评论内容内容content" />
+
+        <TextView
+            android:id="@+id/tvPostContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:maxLines="1"
+            android:textColor="@color/Blue"
+            android:textSize="12sp"
+            tools:text="# 评论内容内容content评论内容内容content" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black_alpha_12"
+            android:textSize="12sp"
+            tools:text="2019-1-1 11:11" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDelComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_unlike"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="4dp"
+        android:text="删除"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+</LinearLayout>

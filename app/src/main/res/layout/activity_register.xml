@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/registerBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/ic_clear_black_24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="46dp"
+            android:text="请输入注册信息"
+            android:textColor="@color/color_text_gray_darker"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/edt_bg_selector"
+            android:hint="请输入用户名"
+            android:textColor="#363C54"
+            android:textColorHint="#CDCED4"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <EditText
+            android:id="@+id/etPwd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/edt_bg_selector"
+            android:hint="请输入密码"
+            android:textColor="#363C54"
+            android:textColorHint="#CDCED4"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <EditText
+            android:id="@+id/etPwd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/edt_bg_selector"
+            android:hint="请确认密码"
+            android:textColor="#363C54"
+            android:textColorHint="#CDCED4"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <Button
+            android:id="@+id/submit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/shape_login_btn"
+            android:text="注册"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="已有账号 前去登录"
+            android:textColor="#70B7E9" />
+
+    </LinearLayout>
+
+</LinearLayout>

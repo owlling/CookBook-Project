@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Cookbook</string>
+    <string name="app_name_about">关于CookbookAPP</string>
+
+    <string name="toast_msg_oncemore_exit">再按一次返回键退出</string>
+    <string name="toast_msg_no_more_data">没有更多数据了</string>
+    <string name="toast_msg_no_more_search_data">没有找到相关菜谱</string>
+
+    <string name="cancel">取消</string>
+    <string name="category">分类</string>
+    <string name="collection">我的收藏</string>
+    <string name="about">关于</string>
+    <string name="search">搜索</string>
+    <string name="delete">删除</string>
+
+    <string name="history_search_record">历史搜索记录</string>
+    <string name="cook_channel_title">菜单频道管理</string>
+    <string name="cook_channel_my">我的频道</string>
+    <string name="cook_channel_more">更多频道</string>
+    <string name="cook_channel_tip">单击增删频道，长按拖拽排序</string>
+
+    <string name="ingredients">用料</string>
+    <string name="methods">做法</string>
+
+    <string name="about_project">关于我们</string>
+    <string name="about_look_core">查看项目地址</string>
+    <string name="about_share_core">分享我的动态</string>
+    <string name="about_look_bo">查看个人网站</string>
+    <string name="about_share_app">分享这个APP</string>
+    <string name="about_github">产品愿景</string>
+    <string name="about_open_source">贴近用户生活，提倡更有品质的生活方式\n让生活更加美好，我们一起努力～</string>
+    <string name="about_html_look_core">http://www.owlling.com/works/updating.html</string>
+    <string name="about_html_look_bo">http://www.owlling.com</string>
+
+    <string name="share_app_title">记录生活，记录你～</string>
+    <string name="share_app_content">爱尚菜谱，关爱你～</string>
+    <string name="share_core_title">记录生活，记录你～</string>
+    <string name="share_core_content">爱尚菜谱，关爱你～</string>
+
+    <string name="can_not_find_version_name">找不到版本号</string>
+
+    <string name="transition_cook_detail_imgv_bg">transition_cook_detail_imgv_bg</string>
+    <string name="transition_cook_detail_content">transition_cook_detail_content</string>
+
+</resources>

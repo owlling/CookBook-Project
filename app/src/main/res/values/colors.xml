@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--主题色-->
+    <color name="colorPrimary">#FB5352</color>
+    <color name="colorPrimaryDark">#FB5352</color>
+    <color name="colorAccent">#FB5352</color>
+
+    <color name="bgLogin">#F7F7F8</color>
+    <color name="white">#ffffff</color>
+    <color name="color_text_gray_darker">#363C54</color>
+    <color name="black">#363C54</color>
+    <color name="black_alpha_light">#88f7f7f8</color>
+    <color name="black_light">#e2e0df</color>
+    <color name="black_alpha_12">#9B9DA9</color>
+    <color name="black_alpha_30">#696D7F</color>
+    <color name="Orange">#FB5352</color>
+    <color name="Yellow">#FE9494</color>
+    <color name="Blue">#4674e7</color>
+    <color name="Green">#FFB22B</color>
+    <color name="shadow_gray">#9B9DA9</color>
+
+    <color name="main_indicator_bg">#F0F1F2</color>
+    <color name="gray_bg">#F0F1F2</color>
+    <color name="text_tip">#040B29</color>
+    <color name="seperate_line">#F0F1F2</color>
+
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_selected_stroke">#FB5352</color>
+    <color name="subscribe_item_disabled_stroke">#d9d9d9</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_bg">#F7F7F8</color>
+    <color name="subscribe_item_pressed_stroke">#CDCED4</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#CDCED4</color>
+    <color name="subscribe_item_normal_bg">#F7F7F8</color>
+    <color name="subscribe_item_text_color_pressed">#9B9DA9</color>
+    <color name="subscribe_item_text_color_normal">#363C54</color>
+    <color name="btnUnlike">#F0F1F2</color>
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.owlling.cookbook">
+
+    //预定义手机权限
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.owlling.cookbook.CookBookApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app_cookbook"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:targetApi="m">
+
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.MainActivity"
+            android:launchMode="standard"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.SplashActivity"
+            android:theme="@style/SplashTheme"> //启动页
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> //主函数首屏
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.CookChannelActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.CookCategoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.CookDetailActivity"
+            android:theme="@style/AppThemeFullImage" />
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.CookSearchResultActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.CookListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.CookCollectionListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.owlling.cookbook.ui.activity.AboutActivity"
+            android:theme="@style/AppThemeFullImage" />
+        <activity
+            android:name=".community.acc.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.acc.LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.user.UserInfoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.post.create.CreatePostActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.mine.mywatch.WatchListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.mine.myfans.FansListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.post.detail.PostDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.mine.mypost.MyPostActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.mine.mycomments.MyCommentActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.post.comment.CommentListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".community.user.userdetail.UserDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+    </application>
+
+</manifest>
